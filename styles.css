@@ -4,7 +4,7 @@
 }
 
 .homepage {
-    background-image: url(al-aqsa_pic.jpg);
+    background-image: url(/assets/al-aqsa_pic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #f0f0f0; /* Fallback background color */
@@ -161,7 +161,7 @@ main {
     font-style:italic;
     color: transparent;
     -webkit-text-stroke: .7px #fff;
-    background: url(black-gradient.jpg);
+    background: url(assets/black-gradient.jpg);
     background-clip: unset;
     -webkit-background-clip: text;
     background-position: 0 0;
@@ -235,7 +235,7 @@ input::placeholder {
 }
  
 .chatbot-page {
-    background-image: url(moonpatterns.jpg);
+    background-image: url(assets/moonpatterns.jpg);
     background-size:cover;
     background-repeat:repeat;
     background-color: #f0f0f0; 
@@ -303,7 +303,7 @@ input::placeholder {
 }
 
 .prayer-times-page {
-    background-image: url(islamic-art.jpg);
+    background-image: url(assets/islamic-art.jpg);
     background-repeat:repeat;
     background-color: #f0f0f0;
 }
@@ -352,7 +352,7 @@ body {
 }
 
 .learnmore-page {
-    background-image: url(paisley-art.jpg);
+    background-image: url(assets/paisley-art.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }

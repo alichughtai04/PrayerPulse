@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prayer Pulse</title>
+  <link rel="stylesheet" href="../styles.css">
+  <script src="../script.js" defer></script>
+
+</head>
+
+<body class="prayer-times-page">
+  <nav class="navbar">
+    <h1 class="brand-title"><a href="index.html">Prayer Pulse &#9790;</a></h1>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="chatbot.html">Chatbot</a></li>
+        <li><a href="prayertimes.html">Prayer Times</a></li>
+        <li><a href="learnmore.html">Learn More</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="img-container">
+      <a href="index.html">
+        <img id="logo" src="../assets/light.jpg" alt="logo">
+      </a>
+    </div>
+  </main>
+  <div class="city-selector">
+    <label class="city-label" for="city">Select City &#10141;</label>
+    <select id="city">
+      <option value="Charlotte">Charlotte</option>
+      <option value="New York">New York</option>
+      <option value="Los Angeles">Los Angeles</option>
+      <option value="Chicago">Chicago</option>
+      <!-- Add more cities as needed -->
+    </select>
+    <button id="fetch-times-btn">Load Prayer Times</button>
+  </div>
+  <div class="prayer-times-container">
+    <h1 class="prayer-times">Islamic Prayer Times</h1>
+    <div class="prayer-times-table">
+      <!-- Prayer times will be inserted here -->
+      <table>
+        <thead>
+          <tr>
+            <th>Fajr</th>
+            <th>Dhuhr</th>
+            <th>Asr</th>
+            <th>Maghrib</th>
+            <th>Isha</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="fajrtime"></td>
+            <td id="dhuhrtime"></td>
+            <td id="asrtime"></td>
+            <td id="maghribtime"></td>
+            <td id="ishatime"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 <a href="index.html">Prayer Pulse.</a> All rights reserved. | &#9993; achught1@uncc.edu | Charlotte,
+      NC 28213</p>
+  </footer>
+  <script src="../scripts/prayer.js" defer></script>
+</body>
+
+</html>

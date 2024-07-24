@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prayer Pulse</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../script.js" defer></script>
+
 </head>
+
 <body class="homepage">
     <nav class="navbar">
-      <h1 class="brand-title"><a href="index.html">Prayer Pulse &#9790; </a></h1>
-      <a href="#" class="toggle-button">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </a>
-      <div class="navbar-links">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="chatbot.html">Chatbot</a></li>
-          <li><a href="prayertimes.html">Prayer Times</a></li>
-          <li><a href="learnmore.html">Learn More</a></li>
-        </ul>
-      </div>
+        <h1 class="brand-title"><a href="index.html">Prayer Pulse &#9790; </a></h1>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chatbot.html">Chatbot</a></li>
+                <li><a href="prayertimes.html">Prayer Times</a></li>
+                <li><a href="learnmore.html">Learn More</a></li>
+            </ul>
+        </div>
     </nav>
-    
+
     <main>
         <div class="img-container">
             <a href="index.html">
-                <img id="logo" src="light.jpg" alt="logo">
+                <img id="logo" src="../assets/light.jpg" alt="logo">
             </a>
         </div>
 
@@ -38,14 +41,14 @@
         <div>
             <fieldset>
                 <label class="sub">Subscribe to our Newsletter</label>
-                    <form action="/subscribe" method="post">
-                        <label for="email">Enter your email:</label>
-                        <input type="email" id="email" name="email" placeholder="enter your email here..." required>
-                        <input type="submit" value="Subscribe" class="subscribe-button">
-                    </form>
+                <form action="/subscribe" method="post">
+                    <label for="email">Enter your email:</label>
+                    <input type="email" id="email" name="email" placeholder="enter your email here..." required>
+                    <input type="submit" value="Subscribe" class="subscribe-button">
+                </form>
             </fieldset>
         </div>
-        <div >
+        <div>
             <fieldset>
                 <label class="message">Donate to the Palestine Children's Relief Fund </label>
                 <a href="https://www.pcrf.net/" class="donate-button" target="_blank">Donate Here</a>
@@ -59,15 +62,18 @@
         </div>
     </div>
     <footer>
-        <p>&copy; 2024 <a href="index.html">Prayer Pulse.</a> All rights reserved. | &#9993; achught1@uncc.edu   |   Charlotte, NC 28213</p>     
+        <p>&copy; 2024 <a href="index.html">Prayer Pulse.</a> All rights reserved. | &#9993; achught1@uncc.edu |
+            Charlotte, NC 28213</p>
     </footer>
     <div id="modal" class="modal">
         <div class="modal-content">
             <span class="close-button">&times;</span>
-            <img src="tick.png" alt="">
+            <img src="../assets/tick.png" alt="">
             <h2>Thank You!</h2>
             <p>Your details have been succesfully submitted.</p>
         </div>
     </div>
-  </body>
-</html> 
+    <script src="../scripts/subscribe.js" defer></script>
+</body>
+
+</html>
